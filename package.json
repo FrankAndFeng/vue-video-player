@@ -1,18 +1,13 @@
 {
-  "name": "vue-video-player",
-  "description": "video.js component for Vue",
-  "version": "5.0.2",
+  "name": "my-vue-video-player",
+  "description": "my video.js component for Vue",
+  "version": "1.0.0",
   "license": "MIT",
   "private": false,
   "author": {
-    "name": "Surmon",
-    "email": "surmon@foxmail.com",
-    "url": "https://surmon.me"
+    "name": "Lingfeng",
+    "email": "feng_006@163.com"
   },
-  "bugs": {
-    "url": "https://github.com/surmon-china/vue-video-player/issues"
-  },
-  "homepage": "https://github.com/surmon-china/vue-video-player#readme",
   "main": "dist/vue-video-player.js",
   "unpkg": "dist/vue-video-player.js",
   "jsnext:main": "dist/vue-video-player.js",
@@ -27,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/surmon-china/vue-video-player.git"
+    "url": "https://github.com/FrankAndFeng/vue-video-player.git"
   },
   "keywords": [
     "vue-video-player",
