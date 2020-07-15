@@ -134,13 +134,13 @@
 
         // ios fullscreen
         if (this.playsinline) {
-          this.$refs.videoPlayer.$refs.video.setAttribute('controlsList', "nofullscreen nodownload noremoteplayback")
-          this.$refs.videoPlayer.$refs.video.setAttribute('playsinline', 'isiPhoneShowPlaysinline')
-          this.$refs.videoPlayer.$refs.video.setAttribute('webkit-playsinline', 'isiPhoneShowPlaysinline')
-          this.$refs.videoPlayer.$refs.video.setAttribute('x5-video-player-type', 'h5-page')
-          this.$refs.videoPlayer.$refs.video.setAttribute('x5-playsinlin', '')
-          this.$refs.videoPlayer.$refs.video.setAttribute('t7-video-player-type', 'inline')
-          this.$refs.videoPlayer.$refs.video.setAttribute('x-webkit-airplay', '')
+          this.$refs.video.setAttribute('controlsList', "nofullscreen nodownload noremoteplayback")
+          this.$refs.video.setAttribute('playsinline', 'isiPhoneShowPlaysinline')
+          this.$refs.video.setAttribute('webkit-playsinline', 'isiPhoneShowPlaysinline')
+          this.$refs.video.setAttribute('x5-video-player-type', 'h5-page')
+          this.$refs.video.setAttribute('x5-playsinlin', '')
+          this.$refs.video.setAttribute('t7-video-player-type', 'inline')
+          this.$refs.video.setAttribute('x-webkit-airplay', '')
         }
 
         // cross origin
