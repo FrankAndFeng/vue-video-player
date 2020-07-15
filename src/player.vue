@@ -3,6 +3,8 @@
     <video class="video-js" ref="video">
       <track v-for="crtTrack in trackList" :kind="crtTrack.kind" :label="crtTrack.label" :src="crtTrack.src" :srcLang="crtTrack.srcLang" :default="crtTrack.default"/>
     </video>
+    <div class="video-cover">
+    </div>
   </div>
 </template>
 
@@ -234,3 +236,13 @@
     }
   }
 </script>
+
+<style scoped>
+.video-cover{
+  position: absolute;
+  z-index: 1;
+  width: inherit;
+  height: inherit;
+  background-color: transparent;
+}
+</style>
