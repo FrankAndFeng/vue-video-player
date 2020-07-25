@@ -134,13 +134,20 @@
 
         // ios fullscreen
         if (this.playsinline) {
-          this.$refs.video.setAttribute('controlsList', "nofullscreen nodownload noremoteplayback")
+          this.$refs.video.setAttribute('controlslist', "nofullscreen nodownload noremoteplayback")
           this.$refs.video.setAttribute('playsinline', 'isiPhoneShowPlaysinline')
           this.$refs.video.setAttribute('webkit-playsinline', 'isiPhoneShowPlaysinline')
           this.$refs.video.setAttribute('x5-video-player-type', 'h5-page')
           this.$refs.video.setAttribute('x5-playsinlin', '')
           this.$refs.video.setAttribute('t7-video-player-type', 'inline')
           this.$refs.video.setAttribute('x-webkit-airplay', '')
+          this.$refs.video.setAttribute('nofullscreen', 'true')
+          // webkit-playsinline=""
+          // playsinline=""
+          // controlslist="nofullscreen nodownload noremoteplayback"
+          // x5-video-player-type="h5-page"
+          // x-webkit-airplay="allow"
+          // nofullscreen="true"
         }
 
         // cross origin
