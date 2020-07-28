@@ -141,8 +141,6 @@
           this.$refs.video.setAttribute('x5-playsinlin', '')
           this.$refs.video.setAttribute('t7-video-player-type', 'inline')
           this.$refs.video.setAttribute('x-webkit-airplay', 'allow')
-          this.$refs.video.setAttribute('nofullscreen', 'true')
-          this.$refs.video.setAttribute('uc-video-toolbar-id', '')
         }
 
         // cross origin
