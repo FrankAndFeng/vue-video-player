@@ -134,7 +134,7 @@
 
         // ios fullscreen
         if (this.playsinline) {
-          this.$refs.video.setAttribute('controlslist', "nofullscreen nodownload noremoteplayback")
+          this.$refs.video.setAttribute('controlslist', "nodownload noremoteplayback")
           this.$refs.video.setAttribute('playsinline', '')
           this.$refs.video.setAttribute('webkit-playsinline', '')
           this.$refs.video.setAttribute('x5-video-player-type', 'h5-page')
