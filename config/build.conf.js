@@ -11,10 +11,10 @@ module.exports = merge(baseConfig, {
   },
   externals: {
     'video.js': {
-        root: 'videojs',
+        root: 'video.js',
         commonjs: 'video.js',
         commonjs2: 'video.js',
-        amd: 'videojs'
+        amd: 'video.js'
     },
     'object-assign': 'object-assign'
   },
